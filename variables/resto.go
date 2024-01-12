@@ -26,3 +26,13 @@ func ToText(number int) (bool, string) {
 	text := strconv.Itoa(number)
 	return true, text
 }
+
+func GetMult(number int) (bool, int) {
+	mult := number * number
+	return true, mult
+}
+
+func GetSay(name string) (string) {
+	text := "Hola espero estes bien:) "
+	return text+name
+}	

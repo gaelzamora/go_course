@@ -6,7 +6,8 @@ import (
 )
 
 func main() {
-	estado, texto := variables.ToText(5)
-	fmt.Println(estado)
-	fmt.Println(texto)
+	state, number := variables.GetMult(10)
+	fmt.Println(state)
+	fmt.Println(number)
+	fmt.Println(variables.GetSay("Gael"))
 }
